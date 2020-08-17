@@ -1,0 +1,15 @@
+<Button>:
+    font_size:40
+    color:46,234,209,1
+    size_hint: 0.3, 0.5
+
+
+<FloatLayout>:
+    Button:
+        pos_hint: {"x":0.5, "top":1}
+        text: "Dave"
+
+    Button:
+        id: btn
+        text: "Rave" if btn.state == "normal" else "Rape"
+        background_color: 228, 128, 211, 1
